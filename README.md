@@ -3,9 +3,10 @@ String Obfuscator written in Swift that protects your sensitive strings against 
 
 
 Code usage:
-        let stringToObfuscate = "API_KEY"
-        let obfuscatedString = obfuscator.obfuscatedString(string: stringToObfuscate)
-        let stringFromByteArray = obfuscator.stringFromByteArray(byteArray: obfuscatedString)
+
+let stringToObfuscate = "API_KEY"
+let obfuscatedString = obfuscator.obfuscatedString(string: stringToObfuscate)
+let stringFromByteArray = obfuscator.stringFromByteArray(byteArray: obfuscatedString)
        
        
 Use ObfuscatorTest (test case) for testing your string obfuscation and decryption.
